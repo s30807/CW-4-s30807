@@ -3,6 +3,18 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Ignore JetBrains IDE config folders
+.idea/
+
+# Optionally ignore all XMLs from .idea if you want to be specific
+.idea/**/*.xml
+
+# Ignore Rider project-level gitignores too
+.idea/**/.gitignore
+
+.DS_Store
+
+
 # User-specific files
 *.rsuser
 *.suo
